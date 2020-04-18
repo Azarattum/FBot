@@ -1,0 +1,30 @@
+{
+	"scripts": {
+		"run": "node dist/bundle.js",
+		"release": "node_modules/.bin/webpack-cli -p --progress",
+		"build": "node_modules/.bin/webpack-cli --debug --progress",
+		"watch": "node_modules/.bin/webpack-cli --debug -w"
+	},
+	"dependencies": {
+		"discord.js": "^12.2.0",
+		"dotenv": "^8.2.0"
+	},
+	"devDependencies": {
+		"@types/node": "^13.13.0",
+		"@typescript-eslint/eslint-plugin": "^2.28.0",
+		"@typescript-eslint/parser": "^2.28.0",
+		"eslint": "^6.8.0",
+		"eslint-plugin-import": "^2.20.2",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-standard": "^4.0.1",
+		"prettier": "^2.0.4",
+		"terser-webpack-plugin": "^2.3.5",
+		"ts-loader": "^7.0.0",
+		"typescript": "^3.8.3",
+		"webpack": "^4.42.1",
+		"webpack-cleanup-plugin": "^0.5.1",
+		"webpack-cli": "^3.3.11",
+		"webpack-node-externals": "^1.7.2"
+	}
+}
