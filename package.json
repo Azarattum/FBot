@@ -20,11 +20,11 @@
 		"eslint-plugin-standard": "^4.0.1",
 		"prettier": "^2.0.4",
 		"terser-webpack-plugin": "^2.3.5",
-		"ts-loader": "^7.0.0",
+		"ts-loader": "^9.4.2",
 		"typescript": "^3.8.3",
-		"webpack": "^4.42.1",
+		"webpack": "^5.75.0",
 		"webpack-cleanup-plugin": "^0.5.1",
-		"webpack-cli": "^3.3.12",
+		"webpack-cli": "^5.0.1",
 		"webpack-node-externals": "^1.7.2"
 	}
 }
